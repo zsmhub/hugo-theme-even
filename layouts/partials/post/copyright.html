@@ -2,7 +2,7 @@
 <div class="post-copyright">
   <p class="copyright-item">
     <span class="item-title">{{ T "author" }}</span>
-    <span class="item-content">{{ if .Params.author }}{{ .Params.author | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}</span>
+    <span class="item-content"><a href="https://zsmhub.github.io/" class="theme-link">{{ if .Params.author }}{{ .Params.author | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}</a></span>
   </p>
   <p class="copyright-item">
     <span class="item-title">{{ T "lastMod" }}</span>
